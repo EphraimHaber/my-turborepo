@@ -1,0 +1,19 @@
+{
+    "name": "@repo/backend",
+    "version": "0.1.0",
+    "scripts": {
+        "dev": "nodemon src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@repo/math": "workspace:*",
+        "@types/express": "^5.0.0",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "@repo/typescript-config": "workspace:*",
+        "nodemon": "^3.1.9",
+        "ts-node": "^10.9.2",
+        "typescript": "latest"
+    }
+}
