@@ -32,7 +32,10 @@ export default function Home() {
 					height={38}
 					priority
 				/>
-				<div>{add(1, 2)}</div>;
+				<h1 style={{ color: 'red' }}>{add(1, 2)}</h1>
+				<h1 style={{ color: 'red' }}>{add(1, 2)}</h1>
+				<h1 style={{ color: 'red' }}>{add(1, 2)}</h1>
+				<h1 style={{ color: 'red' }}>{add(1, 2)}</h1>
 				<ol>
 					<li>
 						Get started by editing{' '}
