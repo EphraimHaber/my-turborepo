@@ -1,4 +1,4 @@
-import { add } from '@repo/math/add';
+import { add } from '@repo/math';
 import Image, { type ImageProps } from 'next/image';
 import { Button } from '@repo/ui/button';
 import styles from './page.module.css';
